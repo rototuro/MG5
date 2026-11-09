@@ -375,8 +375,7 @@ Transform:
   m_LocalPosition: {x: -248.7, y: 0, z: -384.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 807145781}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &330585543
@@ -1083,12 +1082,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 807145780}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -248.7, y: 0, z: -384.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 220830091}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &807145782
 MonoBehaviour:
@@ -2861,6 +2860,7 @@ GameObject:
   - component: {fileID: 6023127889996535708}
   - component: {fileID: 9151555842507771957}
   - component: {fileID: 9151555842507771959}
+  - component: {fileID: 9151555842507771960}
   m_Layer: 0
   m_Name: Pudu
   m_TagString: Untagged
@@ -3395,6 +3395,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9d83011fa1cc4a8ca7c1de3f28e7750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
+--- !u!195 &9151555842507771960
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5221902909451208006}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -3406,4 +3428,5 @@ SceneRoots:
   - {fileID: 694647725}
   - {fileID: 986340172}
   - {fileID: 1703821028}
+  - {fileID: 807145781}
   - {fileID: 220830091}
